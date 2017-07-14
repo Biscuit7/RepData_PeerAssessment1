@@ -1,6 +1,10 @@
 ---
 title: "PA1_template"
-output: html_document
+author: "Biscuit7"
+date: "`r format(Sys.Date())`"
+output:
+      html_document:
+            keep_md: TRUE
 ---
 
 ```{r setup, include=FALSE}
